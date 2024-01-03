@@ -1,0 +1,56 @@
+/* styles/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.options {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+select {
+  padding: 5px;
+}
+
+.board {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.task {
+  margin-bottom: 8px;
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: grab;
+}
+
+.task:active {
+  cursor: grabbing;
+}
+
+.task-title {
+  font-weight: bold;
+}
+
+.task-details {
+  margin-top: 8px;
+  font-size: 0.8em;
+  color: #555;
+}
